@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.event-containers {
+  display: flex;
+  align-items: flex-start;
+}
+.event-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-y: auto;
+  background-color: #3a4b63;
+}
+.heading {
+  color: #f8fafc;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 48px;
+}
+.event-list {
+  display: flex;
+  flex: wrap;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}

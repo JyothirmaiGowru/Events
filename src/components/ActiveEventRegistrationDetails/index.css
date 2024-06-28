@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100%;
+}
+.view-container {
+  display: flex;
+  align-items: center;
+  flex-direction: colum;
+  width: 90%;
+}
+.closed-registration {
+  width: 30px;
+  height: 30px;
+  border: 20px;
+}
+.regiatration-heading {
+  color: #323f4b;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  margin-top: 40px;
+}
+.regiatration-descriptio {
+  font-family: roboto;
+  font-size: 20px;
+  color: #475569;
+  width: 60%;
+  margin: 0px;
+  margin-top: 16px;
+}
+.registered-view {
+  width: 20px;
+  height: 20px;
+}
+.yet-to-reggister {
+  width: 50px;
+  height: 50px;
+}
+.button {
+  width: 70px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #0967d2;
+  color: #ffffff;
+}
